@@ -7,4 +7,4 @@ RUN service httpd restart
 CMD /bin/bash
 COPY index.html /var/www/html/
 EXPOSE 80
-ENTRYPOINT [ "/usr/sbin/systemctl", "-D", "FOREGROUND" ]
+
